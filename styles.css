@@ -51,18 +51,18 @@ body {
     color: white;
 }
 
-.background-credits p{
+.background-credits p {
     text-align: center;
     font-family: sans-serif;
     color: white;
 }
 
-a {
+.background-credits a {
     color: white;
 }
 
 .content {
     width: 70%;
 
-    background-color: green;
+    background-color: #f9fafb;
 }
