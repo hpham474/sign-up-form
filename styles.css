@@ -156,7 +156,8 @@ button {
 
 .form-input input[type="text"],
 .form-input input[type="email"],
-.form-input input[type="tel"] {
+.form-input input[type="tel"],
+.form-input input[type="password"] {
     width: 100%;
     padding: 0 7px;
 
@@ -170,7 +171,8 @@ button {
 
 .form-input input[type="text"]:focus,
 .form-input input[type="email"]:focus,
-.form-input input[type="tel"]:focus {
+.form-input input[type="tel"]:focus,
+.form-input input[type="password"]:focus {
     outline: none;
     border: 2px solid blue;
     box-shadow: 2px 2px 2px gray;
@@ -182,7 +184,8 @@ button {
 }
 
 .form-input input[type="text"]:not(:placeholder-shown):not(:focus):invalid,
-.form-input input[type="email"]:not(:placeholder-shown):not(:focus):invalid {
+.form-input input[type="email"]:not(:placeholder-shown):not(:focus):invalid,
+.form-input input[type="password"]:not(:placeholder-shown):not(:focus):invalid {
     border: 2px solid red;
 }
 
