@@ -44,14 +44,16 @@
                         <input
                             id="first-name"
                             name="first-name"
-                            type="text" />
+                            type="text"
+                            required />
                     </div>
                     <div class="form-input">
                         <label for="last-name">LAST NAME</label>
                         <input
                             id="last-name"
                             name="last-name"
-                            type="text" />
+                            type="text"
+                            required />
                     </div>
                 </div>
                 <div class="form-row">
@@ -60,7 +62,8 @@
                         <input
                             id="email"
                             name="email"
-                            type="email" />
+                            type="email"
+                            required />
                     </div>
                     <div class="form-input">
                         <label for="phone-number">PHONE NUMBER</label>
@@ -72,18 +75,22 @@
                 </div>
                 <div class="form-row">
                     <div class="form-input">
-                        <label for="password">PASSWORD/label>
+                        <label for="password">PASSWORD</label>
                         <input
                             id="password"
                             name="password"
-                            type="text" />
+                            type="text"
+                            required 
+                            pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" />
                     </div>
                     <div class="form-input">
                         <label for="confirm-password">CONFIRM PASSWORD</label>
                         <input
                             id="confirm-password"
                             name="confirm-password"
-                            type="text" />
+                            type="text"
+                            required
+                            pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" />
                     </div>
                 </div>
             </div>
