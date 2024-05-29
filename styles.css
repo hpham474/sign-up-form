@@ -120,7 +120,7 @@ button {
     font-weight: bold;
 }
 
-p a {
+.content a {
     color: #596D48;
     font-style: none;
     text-decoration: none;
