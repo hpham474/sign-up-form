@@ -109,7 +109,7 @@ button {
     border-radius: 12px;
 }
 
-.content p:last-child {
+.content > p {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 2rem;
@@ -131,7 +131,7 @@ p a {
     font-family: sans-serif;
 }
 
-.sign-up p {
+.sign-up p:first-of-type {
     font-size: 1rem;
     font-family: sans-serif;
     color: grey;
@@ -149,7 +149,8 @@ p a {
     width: 16rem;
 }
 
-.sign-up label {
+.sign-up label,
+.sign-up p:last-of-type {
     font-size: .75rem;
     font-family: sans-serif;
     font-weight: bold;
