@@ -81,9 +81,16 @@ body {
 }
 
 .sign-up {
-    padding: 2rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
 
     background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
 
     box-shadow: 10px 10px 5px lightgrey;
 }
@@ -117,4 +124,46 @@ p a {
     color: #596D48;
     font-style: none;
     text-decoration: none;
+}
+
+.sign-up h2 {
+    font-size: 1.25rem;
+    font-family: sans-serif;
+}
+
+.sign-up p {
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: grey;
+}
+
+.form-row {
+    display: flex;
+    padding: .5rem 0;
+    gap: 4rem;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+}
+
+.sign-up label {
+    font-size: .75rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: grey;
+}
+
+.form-input input[type="text"],
+.form-input input[type="email"],
+.form-input input[type="tel"] {
+    width: 100%;
+    padding: 0 7px;
+
+    line-height: 2rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    font-size: 1.5rem;
 }
