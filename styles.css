@@ -188,3 +188,11 @@ p a {
 .form-input input[type="email"]:not(:placeholder-shown):not(:focus):invalid {
     border: 2px solid red;
 }
+
+form button:hover {
+    background-color: #718a5c;
+}
+
+form button:active {
+    background-color: #3f4d33;
+}
