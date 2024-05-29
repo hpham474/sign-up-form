@@ -163,7 +163,27 @@ p a {
     padding: 0 7px;
 
     line-height: 2rem;
-    border: 1px solid #E5E7EB;
+    border: 2px solid #E5E7EB;
     border-radius: 3px;
+
+    font-family: sans-serif;
     font-size: 1.5rem;
+}
+
+.form-input input[type="text"]:focus,
+.form-input input[type="email"]:focus,
+.form-input input[type="tel"]:focus {
+    outline: none;
+    border: 2px solid blue;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.form-input input[type="text"]::placeholder,
+.form-input input[type="email"]::placeholder {
+    opacity: .5;
+}
+
+.form-input input[type="text"]:not(:placeholder-shown):not(:focus):invalid,
+.form-input input[type="email"]:not(:placeholder-shown):not(:focus):invalid {
+    border: 2px solid red;
 }
