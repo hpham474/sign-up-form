@@ -166,7 +166,7 @@ button {
     border-radius: 3px;
 
     font-family: sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .form-input input[type="text"]:focus,
@@ -181,6 +181,7 @@ button {
 .form-input input[type="text"]::placeholder,
 .form-input input[type="email"]::placeholder {
     opacity: .5;
+    font-size: 1.2rem;
 }
 
 .form-input input[type="text"]:not(:placeholder-shown):not(:focus):invalid,
